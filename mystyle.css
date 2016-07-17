@@ -1,0 +1,96 @@
+/* General ----------------------------------- */
+body {
+       background-color: white;
+       font-family: Verdana, sans-serif;
+       width: 1000px;
+       margin: auto;
+}
+
+h1 {
+     color: black;
+     margin-left: 1px;
+     font-family: serif;
+}
+
+/* Top Bar ----------------------------------- */
+ul.topbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgray;
+}
+
+/* Main image ----------------------------------- */
+
+#doit {
+    display: inline-block;
+    background: url(figs/FTLE_bright.png) no-repeat center;
+    background-clip: content-box;
+    background-size: cover;
+    height: 475px;
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    /*line-height: 475px;*/
+}
+
+#titletop {
+    font-size: 38pt;
+    font-weigth: bold;
+    font-family: 'Serif';
+    color: white;
+    margin-left: 5%;
+    /*line-height: 100px;*/
+}
+
+#subtitletop {
+    font-size: 19.5pt;
+    font-weigth: bolder;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 5.2%;
+    margin-top: -6%;
+}
+
+#address {
+    text-align: right;
+    font-size: 15.4pt;
+    font-weigth: bolder;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 55%;
+    margin-top: 25%;
+    margin-right: 2%;
+}
+
+/*
+.circle {
+    border-radius: 50%;
+    background: #73AD21;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
+
+.textincircle{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    word-break: normal;
+}
+/*
